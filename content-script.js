@@ -1,3 +1,8 @@
+/*
+* Ibrahim Hasaan 2023
+* MIT License
+*/
+
 try {
     // For Moodle
     if (window.location.href.indexOf('umass.moonami.com') != -1) {

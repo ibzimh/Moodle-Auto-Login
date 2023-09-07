@@ -1,12 +1,13 @@
 {
     "manifest_version": 3,
-    "name": "Moodle Auto Login",
+    "name": "Umass Auto Login",
     "version": "1.0",
-    "description": "Automatically clicks login when you load the moodle for UMass Amherst.",
+    "description": "Automatically clicks the login button on various UMass websites like Spire, Canvas, Moodle etc.",
     "icons": {
-        "16" : "/images/icon-16.png",
-        "48" : "/images/icon-48.png",
-        "128" : "/images/icon-128.png"
+        "16" : "/images/umass-16.png",
+        "48" : "/images/umass-48.png",
+        "128" : "/images/umass-128.png",
+        "2048" : "/images/umass-2048.png",
     },
     "content_scripts": [{
         "matches" : ["https://umass.moonami.com/*", "https://www.umass.edu/spire/", "https://umamherst.instructure.com/*", "https://www.umass.edu/it/*"],
