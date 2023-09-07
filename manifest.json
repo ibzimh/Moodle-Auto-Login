@@ -10,10 +10,10 @@
         "2048" : "/images/umass-2048.png"
     },
     "content_scripts": [{
-        "matches" : ["https://umass.moonami.com/*", "https://www.umass.edu/spire/", "https://umamherst.instructure.com/*", "https://www.umass.edu/it/*"],
+        "matches" : ["https://umass.moonami.com/*", "https://www.umass.edu/spire/", "https://umamherst.instructure.com/*", "https://www.umass.edu/it/*", "https://login.microsoftonline.com/*"],
         "js" : ["content-script.js"],
         "run_at": "document_end",
-        "permissions": ["https://umass.moonami.com/*", "https://www.umass.edu/spire/", "https://umamherst.instructure.com/*", "https://www.umass.edu/it/*"],
+        "permissions": ["https://umass.moonami.com/*", "https://www.umass.edu/spire/", "https://umamherst.instructure.com/*", "https://www.umass.edu/it/*", "https://login.microsoftonline.com/*"],
         "all_frames": false
     }]
   }
