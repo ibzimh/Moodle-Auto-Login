@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Umass Auto Login",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Automatically clicks the login button on various UMass websites like Spire, Canvas, Moodle etc.",
     "icons": {
         "16" : "/images/umass-16.png",
