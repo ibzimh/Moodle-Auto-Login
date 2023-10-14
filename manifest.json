@@ -6,8 +6,7 @@
     "icons": {
         "16" : "/images/umass-16.png",
         "48" : "/images/umass-48.png",
-        "128" : "/images/umass-128.png",
-        "2048" : "/images/umass-2048.png",
+        "128" : "/images/umass-128.png"
     },
     "content_scripts": [{
         "matches" : ["https://umass.moonami.com/*", "https://www.umass.edu/spire/", "https://umamherst.instructure.com/*", "https://www.umass.edu/it/*"],
